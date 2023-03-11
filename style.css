@@ -10,7 +10,7 @@
   }
   
   header {
-	background-color: #333;
+	background-color: #8080ff;
 	color: #fff;
 	padding: 20px;
 	display: flex;
@@ -54,7 +54,7 @@
   
   a {
 	display: inline-block;
-	background-color: #333;
+	background-color: #6666ff;
 	color: #fff;
 	text-decoration: none;
 	padding: 10px 20px;
