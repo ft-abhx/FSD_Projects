@@ -1,48 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Projects</title>
-  <link rel="stylesheet" href="style.css">
+	<title>My Game Projects</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
-<body style="background-color:#e6f2ff;">
+<body>
+	<header>
+		<h1 style="text-align: center;">My Projects</h1>
+		<nav>
+			<ul>
+				<li><a href="#game1">Wordle</a></li>
+				<li><a href="#game2">Tic Tac Toe</a></li>
+				<li><a href="Profile/myprofile_rwd.html">Profile</a></li>
+			</ul>
+		</nav>
+	</header>
 
-  <header>
-    <h1>My Projects</h1>
-    <nav>
-      <ul>
-        <li><a href="Profile/myprofile_rwd.html" target="_blank">About Me</a></li>
-      </ul>
-    </nav>
-  </header>
+	<main>
+		<section id="game1">
+			<h2>Game 1: Wordle</h2>
+			<p>Wordle is a single-player word-guessing game, where the player has six chances to correctly guess a five-letter word chosen by the game.</p>
+			<div class="screenshots">
+				<img src="source/wordle1.jpg" alt="Game 1 Screenshot 1">
+				<img src="source/wordle2.jfif" alt="Game 1 Screenshot 2">
+				<img src="source/wordle3.jpg" alt="Game 1 Screenshot 3">
+			</div>
+			<a href="./Wordle/index.html" target="_blank">Play Game 1</a>
+		</section>
 
-  <main>
+		<section id="game2">
+			<h2>Game 2: Tic Tac Toe</h2>
+			<p>Tic Tac Toe is a two-player strategy game played on a 3x3 grid, where the first player to get three of their symbols in a row wins.</p>
+			<div class="screenshots">
+				<img src="source/tic1.jpg" alt="Game 2 Screenshot 1">
+				<img src="source/tic2.jpg" alt="Game 2 Screenshot 2">
+				<img src="source/tic3.jpg" alt="Game 2 Screenshot 3">
+			</div>
+			<a href="./Tic Tac Toe/index.html" target="_blank" >Play Game 2</a>
+		</section>
 
-    <section id="project1">
-      <h2>Photo Album</h2>
-      <p>Image processing on Photo Album</p>
-      <a href="/Photo Album/index.html" target="_blank">View project</a>
-    </section>
-<hr><br>
+		<section id="game3">
+			<h2>Game 3: Photo Editor</h2>
+			<p>A collection of photographs</p>
+			<div class="screenshots">
+				<img src="source/p1.jpg" alt="Game 3 Screenshot 1">
+				<img src="source/p2.jpg" alt="Game 3 Screenshot 2">
+				<img src="source/p3.jpg" alt="Game 3 Screenshot 3">
+			</div>
+			<a href="./Photo Album/index.html" target="_blank">View Album and Edit</a>
+		</section>
+	</main>
 
-    <section id="project2">
-      <h2>Tic Tac Toe</h2>
-      <p>Web application for playing AI enabled	 Tic-tac-toe </p>
-      <a href="/Tic Tac Toe/index.html" target="_blank" >View project</a>
-    </section>
-<hr><br>
-
-    <section id="project3">
-      <h2>Wordle </h2>
-      <p>Guess the Word</p>
-      <a href="/Wordle/index.html" target="_blank">View project</a>
-    </section>
-
-
-  </main>
-
-  <script src="script.js"></script>
-
+	<footer>
+		<p style="font-size: x-small;">Designed and Developed by Abhijith A Thampi</p>
+	</footer>
 </body>
 </html>

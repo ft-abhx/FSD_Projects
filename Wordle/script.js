@@ -1,25 +1,27 @@
 // List of words to choose from
 const words = [
 	"apple",
-	"banana",
-	"cherry",
+	"lemon",
+	"melon",
 	"grape",
-	"orange",
 	"peach",
-	"pear",
-	"pineapple",
-	"strawberry",
-	"watermelon"
+	"guava",
+	"gourd",
+	"mango",
+	"onion",
+	"olive",
+	"drupe",
+	
 ];
 
 // Select a random word from the list
 const word = words[Math.floor(Math.random() * words.length)];
 
 // Initialize the game state
-const state = {
+const state = {	
 	word: word,
 	guesses: [],
-	maxGuesses: 5,
+	maxGuesses: 6,
 };
 
 // Get references to DOM elements
