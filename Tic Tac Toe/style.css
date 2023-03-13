@@ -2,9 +2,7 @@
     width: 500px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
-    background-image: url();
-    
+    text-align: center;    
   }
   
   h1 {
@@ -48,4 +46,16 @@
     border: none;
     cursor: pointer;
   }
-  
+  body{
+        background-image: url("https://wallpaperaccess.com/full/2078988.jpg");
+    }
+
+    a {
+      display: inline-block;
+      background-color: #6666ff;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      }
