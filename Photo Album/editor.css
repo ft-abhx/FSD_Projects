@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://previews.123rf.com/images/maciejbledowski/maciejbledowski1810/maciejbledowski181000113/109625610-close-up-picture-of-tic-tac-toe-game-noughts-and-crosses-on-dark-background-selective-focus.jpg");
+}
+
+.canv{
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+canvas{
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+}
